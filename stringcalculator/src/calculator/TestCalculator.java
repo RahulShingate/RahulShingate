@@ -14,8 +14,7 @@ class TestCalculator {
 	        assertEquals(0, stringCalculator.add(""));
 	    }
 	    
-	    
-	    
+	   
 	    @Test
 	    void string_with_single_number_should_return_number_as_int() throws Exception {
 	        StringCalculator stringCalculator = new StringCalculator();
