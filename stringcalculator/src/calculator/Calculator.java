@@ -1,6 +1,6 @@
 package calculator;
 
-class StringCalculator {
+class Calculator {
     public int add(String input) throws Exception {
     	int sum=0;
     	if (input.length()==0) {
